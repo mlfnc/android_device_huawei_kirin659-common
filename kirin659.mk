@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-$(call inherit-product, vendor/huawei/kirin970-common/kirin970-common-vendor.mk)
+$(call inherit-product, vendor/huawei/kirin659-common/kirin659-common-vendor.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
@@ -38,7 +38,7 @@ PRODUCT_PACKAGES += \
 
 # Device init scripts
 PRODUCT_PACKAGES += \
-    init.kirin970.rc
+    init.kirin659.rc
 
 # Display
 PRODUCT_PACKAGES += \
@@ -50,7 +50,7 @@ PRODUCT_COPY_FILES += \
 
 # LineageHw
 PRODUCT_PACKAGES += \
-    lineage.touch@1.0-service.kirin970
+    lineage.touch@1.0-service.kirin659
 
 # NFC
 PRODUCT_PACKAGES += \

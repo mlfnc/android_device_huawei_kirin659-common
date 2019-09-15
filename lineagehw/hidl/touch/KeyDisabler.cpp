@@ -22,7 +22,7 @@ namespace vendor {
 namespace lineage {
 namespace touch {
 namespace V1_0 {
-namespace kirin970 {
+namespace kirin659 {
 
 static constexpr const char *kFingerprintNavPath = "/sys/devices/platform/fingerprint/nav";
 
@@ -54,7 +54,7 @@ Return<bool> KeyDisabler::setEnabled(bool enabled) {
     return false;
 }
 
-}  // namespace kirin970
+}  // namespace kirin659
 }  // namespace V1_0
 }  // namespace touch
 }  // namespace lineage
